@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AndroidClass.GamePage">
+
+    <!-- Градиентный фон -->
+    <ContentPage.Background>
+        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="#FF667EEA" Offset="0.1"/>
+            <GradientStop Color="#FF64B6AC" Offset="0.5"/>
+            <GradientStop Color="#FF67B9E6" Offset="0.9"/>
+        </LinearGradientBrush>
+    </ContentPage.Background>
+
+    <Grid>
+        <Label x:Name="statusLabel" Text="Tap to start" TextColor="Black" FontSize="16" VerticalOptions="Start" HorizontalOptions="Center" Margin="10"/>
+
+        <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+
+            <Grid x:Name="gameGrid" BackgroundColor="Gray" Margin="10">
+
+            </Grid>
+        </StackLayout>
+    </Grid>
+
+</ContentPage>
+
+<!--<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" // Определение пространства имен Xamarin.Forms - используется для создания пользовательского интерфейса с использованием элементов Xamarin.Forms
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" // Определение пространства имен XAML - используется для обеспечения возможности использования расширений XAML
+             x:Class="AndroidClass.GamePage"> // Указание класса, связанного с этой страницей - указывает на класс, который содержит логику для этой страницы
+
+--><!-- Градиентный фон --><!--
+<ContentPage.Background>
+    --><!-- Определение фона страницы --><!--
+    <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+        --><!-- Использование линейного градиента для фона --><!--
+        <GradientStop Color="#FF667EEA" Offset="0.1"/>
+        --><!-- Первая остановка градиента с определенным цветом и смещением --><!--
+        <GradientStop Color="#FF64B6AC" Offset="0.5"/>
+        --><!-- Вторая остановка градиента с определенным цветом и смещением --><!--
+        <GradientStop Color="#FF67B9E6" Offset="0.9"/>
+        --><!-- Третья остановка градиента с определенным цветом и смещением --><!--
+    </LinearGradientBrush>
+</ContentPage.Background>
+
+<Grid>
+    --><!-- Определение сетки для размещения элементов пользовательского интерфейса --><!--
+    <Label x:Name="statusLabel" Text="Tap to start" TextColor="Black" FontSize="16" VerticalOptions="Start" HorizontalOptions="Center" Margin="10"/>
+    --><!-- Элемент Label для отображения статуса игры с определенными свойствами --><!--
+    <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+        --><!-- Определение StackLayout для размещения элементов по центру страницы с определенными свойствами --><!--
+
+        <Grid x:Name="gameGrid" BackgroundColor="Gray" Margin="10">
+            --><!-- Определение сетки для игрового поля с определенными свойствами --><!--
+        </Grid>
+    </StackLayout>
+</Grid>
+
+</ContentPage>-->
+
+
+
